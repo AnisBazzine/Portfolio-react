@@ -1,5 +1,6 @@
 import React ,{useState, useEffect} from 'react'
 import axios from 'axios'
+import './style.css'
 export default function Work() {
     const [work, setWork] = useState([])
     useEffect (()=>{
@@ -19,8 +20,8 @@ export default function Work() {
     })
     return (
         <div className='work' >
-            <div className='container'>
-                <h2 className='work-title'><span>My</span> Work</h2>
+            <h2 className='work-title'><span>My</span> Work</h2>
+            <div className='container-work'>
                 {listWork}
             </div>
         </div>

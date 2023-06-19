@@ -1,0 +1,23 @@
+.work{
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+    background-color: white;
+}
+.work-title{
+    font-size: 60px;
+
+}
+.work-title span{
+    font-weight: normal;
+}
+.container-work{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.part-first{
+    margin: 20px;
+    height: 300px;
+    border: 1px solid black;
+}
