@@ -1,0 +1,95 @@
+{
+    "works" : [
+        {
+            "id" : 1,
+            "icon_name": "icon fa fa-chain fa-2x",
+            "title": "CRUD App",
+            "body": "In this app I try to use react native cross platform."
+        },
+        {
+            "id" : 2,
+            "icon_name": "icon fa fa-bolt fa-2x",
+            "title": "Mobile Ux",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quos omnis voluptas ea ipsam! Voluptas."
+        },
+        {
+            "id" : 3,
+            "icon_name": "icon fa fa-tachometer fa-2x",
+            "title": "Mobile Ux",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quos omnis voluptas ea ipsam! Voluptas."
+        }
+    ],
+    "portfolio" : [
+        {
+            "id":1,
+            "image": "/images/Portfolio/portfolio-img1.jpg"
+        },
+        {
+            "id":2,
+            "image": "/images/Portfolio/portfolio-img2.jpg"
+        },
+        {
+            "id":3,
+            "image": "/images/Portfolio/portfolio-img3.jpg"
+        },
+        {
+            "id":4,
+            "image": "/images/Portfolio/portfolio-img4.jpg"
+        },
+        {
+            "id":5,
+            "image": "/images/Portfolio/portfolio-img5.jpg"
+        },
+        {
+            "id":6,
+            "image": "/images/Portfolio/portfolio-img6.jpg"
+        },
+        {
+            "id":7,
+            "image": "/images/Portfolio/portfolio-img7.jpg"
+        },
+        {
+            "id":8,
+            "image": "/images/Portfolio/portfolio-img8.jpg"
+        }
+    ] ,
+    "social" : [
+        {
+            "id": 1,
+            "icon" : "icon fa fa-facebook fa-lg",
+            "title" : "Follow Me on",
+            "body" : "Facebook"
+        },
+        {
+            "id": 2,
+            "icon" : "icon fa fa-twitter fa-lg",
+            "title" : "Follow Me on",
+            "body" : "Instagram"
+        },
+        {
+            "id": 3,
+            "icon" : "icon fa fa-pinterest fa-lg",
+            "title" : "Follow Me on",
+            "body" : "GitHub"
+        }
+    ],
+    "profile":[
+        {
+            "id": 1,
+            "Name" : "Anis Bazzine",
+            "Birthday" : "30-09-2001",
+            "Adress" : "Ouargla",
+            "Phone": "+213557760454",
+            "Email":"bazzinemohamed01@gmail.com",
+            "Website" : "make it link can click on"
+        }               
+    ],
+    "skills":[
+        {
+            "id": 1,
+            "JavaScript" : 50,
+            "Reactnative" : 70,
+            "Reactjs" : 60
+        }
+    ]
+}

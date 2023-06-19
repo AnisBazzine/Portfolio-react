@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    --blueColor:rgb(70, 70, 243);
+    --blackColor: #333;
+    --grayColor:#555;
+}
+body{
+    background-color: #ddd;
+}
+.navbar{
+    margin-bottom: 75px;
+}
+.navbar .container{
+    display: grid;
+    position: fixed;
+    top: 0;
+    left: 0px;
+    width: 100%;
+    background-color: var(--blackColor);
+    color: white;
+    grid-template-columns: repeat(10,1fr) ;
+    grid-template-areas: "logo logo logo link link link link link link link";
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 3rem;
+    height: 4rem;
+} 
+.navbar .logo {
+    grid-area: logo;
+    display: flex;
+    justify-content: flex-start;
+ }
+.navbar .logo .logo-text{
+    font-weight: bold;
+    font-size: 30px;
+}
+.navbar .ul-list{
+    grid-area: link;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+}
+.navbar.list-item,
+.navbar a {
+    text-decoration: none;
+    color: inherit;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: .5rem;
+    font-size: 18px;
+}
+.navbar .list-item:hover{
+    background-color: #555;
+    color: var(--blueColor);
+    border-radius: 25%;
+    -webkit-border-radius: 25%;
+    -moz-border-radius: 25%;
+    -ms-border-radius: 25%;
+    -o-border-radius: 25%;
+}
+.navbar .list-item.active{
+    background-color: #555;
+}
