@@ -11,7 +11,7 @@ export default function Work() {
     const listWork= work.map(workPart =>{
         return(
             <div className='part-first' key={workPart.id}>
-                <i className={workPart.icon_name}></i>
+                <img scr={workPart.icon_name} alt=''/>
                 <h4 className="part-title">{workPart.title}</h4>
                 <hr className="line"/>
                 <p className="part-desc">{workPart.body}</p>
@@ -20,7 +20,7 @@ export default function Work() {
     })
     return (
         <div className='work' >
-            <h2 className='work-title'><span>My</span> Work</h2>
+            <h2 className='work-title'><span>My</span> Services</h2>
             <div className='container-work'>
                 {listWork}
             </div>

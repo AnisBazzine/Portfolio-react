@@ -1,6 +1,6 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
-
+import './style.css'
 export default function Profile() {
     const [profile , setProfile] = useState([])
     const [skills, setSkills] = useState([])
@@ -18,32 +18,32 @@ export default function Profile() {
         return(
             <ul className="profile-list" key={profileItem.id}>
                 <li className="profile-item">
-                    <span>{keysProfile[1]}: </span>
+                    <span>{keysProfile[1]} </span>
                     {profileItem.Name}        
                 </li>
                 <li className="profile-item">
-                    <span>Birthday : </span>
+                    <span>{keysProfile[2]}</span>
                     {profileItem.Birthday}        
                 </li>
                 <li className="profile-item">
-                    <span>{keysProfile[2]}: </span>
+                    <span>{keysProfile[3]}</span>
                     {profileItem.Adress}        
                 </li>
                 <li className="profile-item">
-                    <span>{keysProfile[3]}: </span>
+                    <span>{keysProfile[4]}</span>
                     {profileItem.Phone}        
                 </li>
                 <li className="profile-item">
-                    <span>{keysProfile[4]}: </span>
+                    <span>{keysProfile[5]}</span>
                     {profileItem.Email}        
                 </li>
                 <li className="profile-item">
-                    <span>{keysProfile[5]}: </span>
-                    {profileItem.Website}        
+                    <span className='web'>{keysProfile[6]}</span>
+                    <a href='https://github.com/anisbazzine'>{profileItem.Website}</a>        
                 </li>
             </ul>
         )})
-    const  skillsShow = skills.map( skillItem =>{
+    const skillsShow = skills.map( skillItem =>{
         return(
             <div className='Skills show' key={skillItem.id}>
                 <div className="bar" >
@@ -55,13 +55,20 @@ export default function Profile() {
                 </div>
                 <div className="bar">
                     <span className="title">{keysSkills[2]} </span>
-                    <span className="perc">{skillItem.Reactnative} %</span>
+                    <span className="perc">{skillItem.Css} %</span>
                     <div className="parent">
                         <span className="sp2"></span>
                     </div>
                 </div>
                 <div className="bar">
                     <span className="title">{keysSkills[3]} </span>
+                    <span className="perc">{skillItem.Reactnative} %</span>
+                    <div className="parent">
+                        <span className="sp2"></span>
+                    </div>
+                </div>
+                <div className="bar">
+                    <span className="title">{keysSkills[4]} </span>
                     <span className="perc">{skillItem.Reactjs}%</span>
                     <div className="parent">
                         <span className="sp3"></span>

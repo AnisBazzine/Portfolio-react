@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
-
+import './style.css'
 export default function Portfolio() {
     const [images, setImages] = useState([])
     useEffect(()=>{
@@ -25,7 +25,9 @@ export default function Portfolio() {
                 <li className='portfolio-item' >React js</li>
                 <li className='portfolio-item' >React native</li>
             </ul>   
-            {imagesPortfolio}
+            <div className="box" >
+                {imagesPortfolio}
+            </div>
         </div>
     )
 }

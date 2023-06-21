@@ -2,21 +2,39 @@
     "works" : [
         {
             "id" : 1,
-            "icon_name": "icon fa fa-chain fa-2x",
-            "title": "CRUD App",
-            "body": "In this app I try to use react native cross platform."
+            "icon_name": "../images/work/app-cover.jpg",
+            "title": "React Native App Development",
+            "body": "I offer professional React Native app development services for businesses and individuals looking to build high-quality mobile applications. Whether you need an e-commerce app, social media app, or any other type of mobile app, I can create cross-platform solutions that cater to your specific needs."
         },
         {
             "id" : 2,
-            "icon_name": "icon fa fa-bolt fa-2x",
-            "title": "Ecomerce app",
-            "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quos omnis voluptas ea ipsam! Voluptas."
+            "icon_name": "../images/work/app-cover.jpg",
+            "title": "Custom Component Development",
+            "body": "I provide custom component development services to enhance your app's functionality and provide unique features. Whether you require custom UI elements, animations, or advanced functionalities, I can create bespoke components that align with your brand and app requirements."
         },
         {
             "id" : 3,
-            "icon_name": "icon fa fa-tachometer fa-2x",
-            "title": "Mobile Ux",
-            "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quos omnis voluptas ea ipsam! Voluptas."
+            "icon_name": "../images/work/app-cover.jpg",
+            "title": "App Testing and Debugging",
+            "body": "I ensure the quality and reliability of your mobile app by conducting comprehensive testing and debugging processes. By employing industry-standard testing methodologies, I can identify and resolve any issues to ensure a stable and bug-free app experience."
+        },
+        {
+            "id" : 4,
+            "icon_name": "../images/work/app-cover.jpg",
+            "title": "App Performance Optimization",
+            "body": " I optimize the performance of your app to deliver a smooth and responsive user experience. Through techniques like code optimization, resource management, and caching strategies, I enhance app performance, reduce loading times, and minimize app size."
+        },
+        {
+            "id" : 5,
+            "icon_name": "../images/work/app-cover.jpg",
+            "title": "Third-Party API Integration",
+            "body": "I excel at integrating various third-party APIs into your mobile app, such as social media APIs, payment gateways, geolocation services, or push notification services. By seamlessly incorporating these APIs, I can empower your app with extended capabilities and improve user engagement."
+        },
+        {
+            "id" : 6,
+            "icon_name": "../images/work/app-cover.jpg",
+            "title": "Maintenance and Support",
+            "body": " I offer ongoing app maintenance and support services to keep your app up-to-date, secure, and compatible with the latest mobile operating systems. From bug fixes and feature enhancements to regular updates, I ensure your app remains reliable and functional over time."
         }
     ],
     "portfolio" : [
@@ -76,18 +94,19 @@
     "profile":[
         {
             "id": 1,
-            "Name" : "Anis Bazzine",
+            "Name" : "Mohamed Anis Bazzine",
             "Birthday" : "30-09-2001",
             "Adress" : "Ouargla",
             "Phone": "+213557760454",
             "Email":"bazzinemohamed01@gmail.com",
-            "Website" : "make it link can click on"
+            "Website" : "GitHub"
         }               
     ],
     "skills":[
         {
             "id": 1,
             "JavaScript" : 50,
+            "Css": 80,
             "Reactnative" : 70,
             "Reactjs" : 60
         }
