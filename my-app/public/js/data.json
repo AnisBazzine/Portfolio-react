@@ -74,21 +74,27 @@
     "social" : [
         {
             "id": 1,
-            "icon" : "icon fa fa-facebook fa-lg",
+            "icon" : "linkedin",
             "title" : "Follow Me on",
-            "body" : "Facebook"
+            "body" : "Linkedin",
+            "color": "#0A66C2",
+            "link":"https://www.linkedin.com/in/anisbazzine/"
         },
         {
             "id": 2,
-            "icon" : "icon fa fa-twitter fa-lg",
+            "icon" : "instagram",
             "title" : "Follow Me on",
-            "body" : "Instagram"
+            "body" : "Instagram",
+            "color":"#FF5252",
+            "link":"https://www.instagram.com/anis.bazzine"
         },
         {
             "id": 3,
-            "icon" : "icon fa fa-pinterest fa-lg",
+            "icon" : "github",
             "title" : "Follow Me on",
-            "body" : "GitHub"
+            "body" : "GitHub",
+            "color":"#000",
+            "link":"https://www.github.com/anisbazzine"
         }
     ],
     "profile":[
@@ -105,10 +111,10 @@
     "skills":[
         {
             "id": 1,
-            "JavaScript" : 50,
-            "Css": 80,
-            "Reactnative" : 70,
-            "Reactjs" : 60
+            "JavaScript" : "50%",
+            "Css": "80%",
+            "Reactnative" : "70%",
+            "Reactjs" : "60%"
         }
     ]
 }

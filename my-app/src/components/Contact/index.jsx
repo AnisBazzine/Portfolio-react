@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './style.css'
 export default function Contact() {
     return (
         <div className="drop">
@@ -7,7 +7,7 @@ export default function Contact() {
                 <h2 className="drop-title"><span>Drop </span>Me A line</h2>
                 <form action="">
                     <div className="form-input">
-                        <input t ype="text" placeholder="Your Name"/>
+                        <input type="text" placeholder="Your Name"/>
                         <input type="email" placeholder="Your Email"/>
                     </div>
                     <input type="text" className="sub" placeholder="Your Subject"/>

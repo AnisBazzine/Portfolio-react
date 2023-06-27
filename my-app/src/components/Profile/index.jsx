@@ -14,6 +14,17 @@ export default function Profile() {
     },[])
     const keysProfile = profile.length > 0 ? Object.keys(profile[0]) : [];
     const keysSkills = profile.length > 0 ? Object.keys(skills[0]) : [];
+    const itemBar =(title, per )=>{
+        <div className='experience-item'>
+            <div className='experience-info'>
+                <p className='title'>{title}test</p>
+                <p className='perc'>{per}</p>
+            </div>
+            <div className='progress-line' data-percent={per}>
+                <span style={{width:{per}}} ></span>
+            </div>
+        </div>
+    }
     const profileShow = profile.map( profileItem =>{
         return(
             <ul className="profile-list" key={profileItem.id}>
@@ -43,38 +54,48 @@ export default function Profile() {
                 </li>
             </ul>
         )})
-    const skillsShow = skills.map( skillItem =>{
-        return(
-            <div className='Skills show' key={skillItem.id}>
-                <div className="bar" >
-                    <span className="title">{keysSkills[1]} </span>
-                    <span className="perc">{skillItem.JavaScript}%</span>
-                    <div className="parent">
-                        <span className="sp1"></span>
-                    </div>
+        const skillsShow = skills.map( skillItem =>{
+            return(
+                <div className='Skills show' key={skillItem.id}>
+                    <div className='experience-items'>
+                        <div className='experience-item'>
+                            <div className='experience-info'>
+                                <p className='title'>{keysSkills[1]}</p>
+                                <p className='perc'>{skillItem.JavaScript}</p>
+                            </div>
+                            <div className='progress-line' data-percent='50%'>
+                                <span style={{width:'50%'}}></span>
+                            </div>
+                        </div>
+                        <div className='experience-item'>
+                            <div className='experience-info'>
+                                <p className='title'>{keysSkills[2]}</p>
+                                <p className='perc'>{skillItem.Css}</p>
+                            </div>
+                            <div className='progress-line' data-percent='80%'>
+                                <span style={{width:"80%"}} ></span>
+                            </div>
+                        </div>
+                        <div className='experience-item'>
+                            <div className='experience-info'>
+                                <p className='title'>{keysSkills[3]}</p>
+                                <p className='perc'>{skillItem.Reactnative}</p>
+                            </div>
+                            <div className='progress-line' data-percent='70%'>
+                                <span style={{width:'70%'}}></span>
+                            </div>
+                        </div>
+                        <div className='experience-item'>
+                            <div className='experience-info'>
+                                <p className='title'>{keysSkills[4]}</p>
+                                <p className='perc'>{skillItem.Reactjs}</p>
+                            </div>
+                            <div className='progress-line' data-percent='60%'>
+                                <span style={{width:'60%'}}></span>
+                            </div>
+                        </div>
+                    </div>                
                 </div>
-                <div className="bar">
-                    <span className="title">{keysSkills[2]} </span>
-                    <span className="perc">{skillItem.Css} %</span>
-                    <div className="parent">
-                        <span className="sp2"></span>
-                    </div>
-                </div>
-                <div className="bar">
-                    <span className="title">{keysSkills[3]} </span>
-                    <span className="perc">{skillItem.Reactnative} %</span>
-                    <div className="parent">
-                        <span className="sp2"></span>
-                    </div>
-                </div>
-                <div className="bar">
-                    <span className="title">{keysSkills[4]} </span>
-                    <span className="perc">{skillItem.Reactjs}%</span>
-                    <div className="parent">
-                        <span className="sp3"></span>
-                    </div>
-                </div>
-            </div>
         )
     })
     return (

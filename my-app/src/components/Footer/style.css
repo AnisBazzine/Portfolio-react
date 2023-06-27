@@ -1,0 +1,12 @@
+*{
+    box-sizing: border-box;
+    --blueColor:rgb(70, 70, 243);
+    --blackColor: #333;
+    --grayColor:#555;
+    --instColor:#FF5252;
+    --linkedColor:#0A66C2;
+}
+.footer{
+    color: var(--blackColor);
+    padding: 10px;
+}

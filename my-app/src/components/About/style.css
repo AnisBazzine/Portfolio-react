@@ -1,0 +1,67 @@
+*{
+    --blueColor:rgb(70, 70, 243);
+    --blackColor: #333;
+    --grayColor:#555;
+}
+.creative{
+    height: 600px;
+    background: url('/public/images/creative/about-bg.jpg'); 
+    background-size: cover;
+    background-position: up;
+    background-attachment: fixed;
+}
+.creative .container{
+    padding-top: 100px;
+    display: flex;
+}
+.creative .container .creative-info{
+    justify-content: flex-start;
+    margin-left: 50%;
+}
+.creative .container .creative-info h2 {
+    text-align: start;
+    padding-top: 10px;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+.creative .container .creative-info span{
+    font-weight: normal;
+}
+.creative .container .creative-info h4{
+    text-align: start;
+    color: var(--blueColor);
+    padding-top: 10px;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.creative .container .creative-info .info-desc{
+    text-align: start;
+    padding-top: 30px;
+    font-size: 18px;
+    line-height: 1.8;
+}
+@media (max-width:575px) {
+    .creative{
+        height: auto;
+    }
+    .creative .container{
+        margin-top: 0px;
+    }
+    .creative .container .creative-info{
+        justify-content: start;
+        margin-left: 0%;
+        text-align: center;
+        width: 100%;
+        padding-top: 10px;
+    }
+    .creative .container .creative-info .info-des{
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    .creative .container .creative-info h4{
+        font-size: 20px;
+    }
+    .creative .container .creative-info h2{
+        font-size: 30px;
+    }
+}
