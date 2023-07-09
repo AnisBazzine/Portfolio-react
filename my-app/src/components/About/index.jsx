@@ -2,7 +2,7 @@ import React from 'react'
 import './style.css'
 export default function About() {
     return (
-        <div className="creative">
+        <div className="creative" id='about'>
             <div className="container">
                 <div className="creative-info">
                     <h2 className="info-title"><span>This is</span> Me</h2>

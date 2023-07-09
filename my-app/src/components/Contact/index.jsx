@@ -2,7 +2,7 @@ import React from 'react'
 import './style.css'
 export default function Contact() {
     return (
-        <div className="drop">
+        <div className="drop" id='contact'>
             <div className="container">
                 <h2 className="drop-title"><span>Drop </span>Me A line</h2>
                 <form action="">

@@ -19,7 +19,7 @@ export default function Work() {
         )
     })
     return (
-        <div className='work' >
+        <div className='work' id='work'>
             <h2 className='work-title'><span>My</span> Services</h2>
             <div className='container-work'>
                 {listWork}

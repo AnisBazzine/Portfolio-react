@@ -18,7 +18,7 @@ export default function Portfolio() {
             </div>
         )})
     return (
-        <div className='portfolio' >
+        <div className='portfolio' id='portfolio' >
             <h2 className='portfolio-title'><span>My</span> Portfolio</h2>
             <ul className='portfolio-list'>
                 <li className='portfolio-item active'>All</li>

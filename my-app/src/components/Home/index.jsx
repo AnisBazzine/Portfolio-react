@@ -3,7 +3,7 @@ import './style.css'
 
 export default function Home() {
     return (
-        <div className="home">
+        <div className="home" id='home'>
             <div className="container">
                 <div className="home-information">
                     <h2 className="home-title margin-bottom">Anis Bazzine</h2>

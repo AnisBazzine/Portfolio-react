@@ -99,7 +99,7 @@ export default function Profile() {
         )
     })
     return (
-        <div className="profile_skills">
+        <div className="profile_skills" id='profile'>
             <div className="container">
                 <div className="profile">
                     <h2 className="profile-title"><span>My </span>Profile</h2>

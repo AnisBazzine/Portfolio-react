@@ -21,7 +21,7 @@ export default function SocailMedia() {
         )
     })
     return (
-        <div className="social-media">
+        <div className="social-media" id='social-media'>
             {socialList}
         </div>   
     )

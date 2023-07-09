@@ -10,10 +10,10 @@ export default function Navbar() {
                 </div>
                 <ul className="ul-list">
                     <li className="list-item"><Link to={'/'} >Home</Link></li>
-                    <li className="list-item"> <a href="#">Work</a></li>
-                    <li className="list-item"> <a href="#">Portfolio</a></li>
-                    <li className="list-item"> <a href="#">Resume</a></li>
-                    <li className="list-item"> <a href="#">About</a></li>
+                    <li className="list-item"> <a href="#work">Work</a></li>
+                    <li className="list-item"> <a href="#portfolio">Portfolio</a></li>
+                    <li className="list-item"> <a href="#resume">Resume</a></li>
+                    <li className="list-item"> <a href="#about">About</a></li>
                     <li className="list-item"><Link to={'/contact'} >Contact</Link></li>
                 </ul>
             </div>
