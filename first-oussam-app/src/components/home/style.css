@@ -1,0 +1,17 @@
+.home{
+    background-size: cover;
+    height: calc(100vh - 60px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../images//landing.jpg');
+}
+.home .home-container h1{
+    color: var(--main-color);
+    font-size: 3rem;
+}
+.home .home-container p{
+    font-size: 18px;
+    line-height: 2rem;
+    font-weight: 400;
+}
