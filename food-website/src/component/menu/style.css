@@ -1,0 +1,87 @@
+.menu{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.text-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.text-head p.title{
+    color: var(--main-color);
+    font-weight: 600;
+}
+.text-head p.heading{
+    font-size: var(--h2-font);
+    font-weight: 600;    
+}
+.foods-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.5rem;
+    align-items: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    height: auto;
+    width: 375px;
+    background-color:#feeee7 ;
+    padding: 20px;
+    margin-top: 4rem;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    position: relative;
+    
+}
+.box .box-img{
+    width: 250px;
+    height: auto;
+    align-self: center;
+}
+.box img{
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+    justify-content: center;
+    display: flex;
+}
+.box .title{
+    color: var(--bg-color);
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.box .desc{
+    color: var(--bg-color);
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 4px 0 10px;    
+}
+.box .price{
+    color: var(--main-color);
+    font-weight: 600;
+    font-size: var(--p-font);
+}
+.box .icon{
+    width: 30px;
+    height: auto;
+    background-color: var(--main-color);
+    margin: 15px;
+    padding: 5px;
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    border-radius:0px 6px;
+    -webkit-border-radius:0px 6px;
+    -moz-border-radius:0px 6px;
+    -ms-border-radius:0px 6px;
+    -o-border-radius:0px 6px;
+}

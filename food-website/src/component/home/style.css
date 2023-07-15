@@ -1,0 +1,57 @@
+.home{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.home-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: flex-start;
+}
+.navMenu{
+    align-self: center;
+}
+.big-text{
+    color: var(--main-color);
+    font-size: var(--big-font);
+}
+.normal-text{
+    font-size: var(--h2-font);
+    font-weight: 800;
+    margin: 25px 0px;
+    text-align: start;
+}
+.btn{
+    background-color: var(--main-color);
+    border: 0;
+    color: var(--text-color);
+    padding: 10px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    cursor: pointer;
+    font-size: var(--p-font);
+    font-weight: 600;
+}
+.btn:hover{
+    transform:  scale(1.2) translateY(10px);
+    -webkit-transform:  scale(1.2) translateY(10px);
+    -moz-transform:  scale(1.2) translateY(10px);
+    -ms-transform:  scale(1.2) translateY(10px);
+    -o-transform:  scale(1.2) translateY(10px);
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+.img-cont img{
+    max-width: 100%;
+    width: 500px;
+    height: auto;
+}

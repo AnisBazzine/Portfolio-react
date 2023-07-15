@@ -1,0 +1,31 @@
+.about{
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.img-cont img{
+    max-width: 100%;
+    width: 480px;
+    height: auto;
+}
+.about-text{
+    display: flex;
+    align-items: flex-start;
+    text-align: start;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 30px;
+}
+.about-text .title{
+    color: var(--main-color);
+    font-size: var(--p-font);
+    font-weight: 600;
+}
+.about-text .heading{
+    font-size: var(--h2-font);
+}
+.about-text .text{
+    margin: 0.8rem 0 1.8rem;
+    line-height: 1.7;
+    width: 600px;
+}

@@ -1,0 +1,27 @@
+.contact{
+    width: 100%;
+    height: auto;
+    margin-top: 60px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.contact-container{
+    background-color: #feeee7;
+    width: 75%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 18px;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    -ms-border-radius: 18px;
+    -o-border-radius: 18px;
+}
+.contact .sentence{
+    color: var(--bg-color);
+    padding-bottom: 2rem;
+}

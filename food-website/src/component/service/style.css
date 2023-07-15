@@ -1,0 +1,44 @@
+.service{
+    width: 100%;
+    margin-top: 60px;
+}
+.service .text-head{
+
+}
+.text-head .title{
+
+}
+.text-head .heading{
+
+}
+.service .services-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+.item{
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: auto;
+    align-items: center;
+    flex-direction: column;
+}
+.item .img-box{
+    width: 250px;
+    height: auto;
+}
+.item .img{
+    width: 37%;
+}
+.item .title-img{
+    color: var(--main-color);
+    font-weight: bold;
+}
+.item .desc{
+    font-size: .75rem;
+    font-weight: 600;
+    text-align: start;
+}
